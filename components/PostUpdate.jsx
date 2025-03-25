@@ -33,7 +33,7 @@ const PostUpdate = () => {
       </div>
 
       {/* Image Upload Section */}
-      <div className="bg-white p-4 mt-4 border rounded-lg flex items-center gap-4 overflow-auto">
+      <div className="bg-white lg:p-4 p-1 mt-4 border rounded-lg flex items-center lg:gap-4 gap-1 overflow-auto">
         {/* Display Uploaded Images */}
         {photos.map((photo, index) => (
           <Image
@@ -50,7 +50,7 @@ const PostUpdate = () => {
         {[...Array(5 - photos.length)].map((_, index) => (
           <label
             key={index}
-            className="flex flex-col items-center justify-center w-20 h-20  border-gray-300 border rounded-lg cursor-pointer"
+            className="flex flex-col items-center justify-center w-full h-20  border-gray-300 border rounded-lg cursor-pointer"
           >
             <input
               type="file"

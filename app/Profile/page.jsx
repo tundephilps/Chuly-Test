@@ -38,7 +38,7 @@ const Profile = () => {
                 className="rounded-lg border-4 h-[180px] w-[180px] border-white shadow-md"
               />
               {/* Edit Profile Picture Button */}
-              <button className="absolute -bottom-3 -right-1 bg-blue-800 text-white rounded-full h-6 w-6 shadow">
+              <button className="absolute -bottom-3 -right-1 bg-blue-800 text-white rounded-full cursor-pointer h-6 w-6 shadow">
                 +
               </button>
             </div>
@@ -46,7 +46,8 @@ const Profile = () => {
             {/* Profile Details */}
             <div className="flex flex-col pt-4">
               <h2 className="text-lg font-semibold flex items-center">
-                Temiloluwa, 27 <FaEdit className="ml-6 text-gray-500 text-sm" />
+                Temiloluwa, 27{" "}
+                <FaEdit className="ml-6 text-gray-500 text-sm cursor-pointer" />
               </h2>
               <p className="text-gray-600">Lagos</p>
             </div>
