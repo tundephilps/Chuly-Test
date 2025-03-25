@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
-        <div className="bg-[#f6f6f6] relative min-h-screen lg:px-32 px-8 py-8">
+        <div className="bg-[#f6f6f6] relative min-h-screen lg:px-32 px-2 py-8">
           <IoIosMenu
-            className="absolute top-12 text-2xl text-black left-8 cursor-pointer z-50"
+            className="absolute lg:top-12 top-2 text-2xl text-black left-8 cursor-pointer z-50"
             onClick={() => setIsOpen(!isOpen)}
           />
           <div className="absolute z-50 ">

@@ -29,7 +29,7 @@ const PostUpdate = () => {
           placeholder="A few words about myself"
           className="w-full bg-white border-none focus:outline-none text-gray-700 text-sm h-[81px]"
         />
-        <HiOutlinePencil className="absolute right-[55%] top-3 text-gray-500" />
+        <HiOutlinePencil className="absolute lg:right-[55%] right-[45%] top-3 text-gray-500" />
       </div>
 
       {/* Image Upload Section */}

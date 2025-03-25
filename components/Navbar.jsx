@@ -24,7 +24,7 @@ export default function Navbar() {
 
           {/* Center Section (Search Bar & Filter - Desktop) */}
           <div className="flex items-center gap-4 lg:pl-20 pl-6">
-            <div className="relative  pr-4">
+            <div className="relative lg:flex hidden pr-4">
               <FiSearch className="absolute left-3 top-3 text-gray-500" />
               <input
                 type="text"

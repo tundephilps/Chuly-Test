@@ -56,7 +56,7 @@ const Profile = () => {
         {/* Profile Section */}
 
         {/* Action Buttons */}
-        <div className="flex justify-end items-end gap-3 mt-2 py-4 w-full">
+        <div className="flex justify-end items-end gap-3 lg:mt-2 mt-16 py-4 w-full">
           <button className="bg-[#ef2424] text-white px-4 py-2 rounded-full text-xs">
             Edit Profile
           </button>
